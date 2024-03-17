@@ -1,0 +1,153 @@
+.page-content{
+    margin-top: 190px;
+    color: white;
+    display: flex;
+  }
+
+  .timeline-full-element, .timeline-full-element-1{
+    padding: 20px 15px 20px 15px ;
+    display: flex;
+    width: 350px;
+    border-radius: 12px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline-position{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .timeline-job{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .timeline-logo-div{
+    margin-bottom: 10px;
+  }
+  
+  .timeline-logo{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+  }
+  
+  .timeline-description{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+
+.timeline{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 5200px;
+}
+
+
+.middle-section{
+    width: 30px;
+    background-color: white;
+}
+
+.middle-photo{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 100;
+  position: fixed;
+  margin-top: 190px;
+}
+
+.right-section, .left-section{
+    padding: 20px 20px 20px 20px ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section .timeline-full-element-1{
+  margin-bottom: 425px;
+}
+
+.left-section .timeline-full-element{
+  margin-bottom: 425px;
+}
+
+.right-section .timeline-full-element-1{
+  margin-top: 340px;
+}
+
+.right-section .timeline-full-element{
+  margin-top: 425px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .timeline{
+    display: grid;
+  }
+
+  .left-section .timeline-full-element{
+    margin-bottom: 40px;
+  }
+
+  .right-section .timeline-full-element{
+    margin-top: 40px;
+  }
+
+  .left-section .timeline-full-element-1{
+    margin-bottom: 40px;
+  }
+
+  .right-section .timeline-full-element-1{
+    margin-top: -40px;
+  }
+
+  .middle-section{
+    display: none;
+  }
+
+  .page-content{
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .body-1 .page-content{
+    margin-top: 500px;
+  }
+
+  .timeline-full-element, .timeline-full-element-1{
+    padding: 20px 15px 20px 15px ;
+    display: flex;
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-position{
+    font-size: 60px;
+  }
+  .timeline-job{
+    font-size: 40px;
+    text-align: center;
+  }
+  .timeline-logo{
+    height: 400px;
+    width: 500px;
+  }
+  .timeline-description{
+    font-size: 40px;
+    text-align: center;
+  }
+
+}

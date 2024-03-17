@@ -1,0 +1,80 @@
+.page-content{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 190px;
+  margin-bottom: 30px;
+}
+
+
+.we-are{
+  margin-top: 30px;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-image-div{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.page-image{
+  height: 200;
+  width: 400px;
+  border-radius: 300px;
+  justify-content: center;
+  display: flex;
+  z-index: 10;
+}
+
+
+
+
+.i-am{
+  display: flex;
+  font-size: 23px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.social-links-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.social-links{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-me-text{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+  .we-are{
+    font-size: 80px;
+}
+
+  .page-image{
+    width: 600px;
+  }
+
+}

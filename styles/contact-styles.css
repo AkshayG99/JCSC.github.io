@@ -1,0 +1,52 @@
+.page-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 190px;
+    margin-bottom: 30px;
+  }
+
+.join-our{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.all-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .join-our{
+    font-size: 80px;
+}
+
+  .links{
+    font-size: 40px;
+  }
+
+  .answer-text{
+    grid-template-columns: 1fr;
+  }
+
+
+}
